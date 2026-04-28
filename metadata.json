@@ -1,0 +1,9 @@
+{
+    "name": "New Userscript",
+    "namespace": "",
+    "description": "New Userscript description",
+    "author": "",
+    "match": "",
+    "icon": "",
+    "grant": "unsafeWindow"
+}
