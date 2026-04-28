@@ -29,7 +29,7 @@ With this template, you can use libraries such as `zod`, `three.js` and other np
       ```
 
 ## Sample Build Output
-The following would be the sample output for the currently existing code in [src/](./src/).
+The following would be the sample output for the currently existing code in [src/](./src/) and metadata in [metadata.json](./metadata.json).
 ```js
 // ==UserScript==
 // @name         New Userscript
