@@ -27,3 +27,22 @@ With this template, you can use libraries such as `zod`, `three.js` and other np
     - ```
       npm run build
       ```
+
+## Sample Build Output
+The following would be the sample output for the currently existing code in [src/](./src/).
+```js
+// ==UserScript==
+// @name         New Userscript
+// @namespace    
+// @description  New Userscript description
+// @author       
+// @match        
+// @icon         
+// @grant        unsafeWindow
+// @version      Tue, 28 Apr 2026 16:31:48 GMT
+// ==/UserScript==
+
+(function (window) {
+"use strict";window.console.log("Hello World");
+})((typeof unsafeWindow === "undefined" ? () => { return window } : () => { return unsafeWindow })());
+```
