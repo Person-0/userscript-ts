@@ -1,5 +1,1 @@
-(function (window) {
-
-    window.console.log('Hello World');
-
-})((typeof unsafeWindow === "undefined" ? () => { return window } : () => { return unsafeWindow })());
+window.console.log('Hello World');
