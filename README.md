@@ -22,6 +22,7 @@ With this template, you can use libraries such as `zod`, `three.js` and other np
       ```
 - Open [src/main.ts](./src/main.ts) and start editing your userscript!
 - The metadata block is auto-added to the generated userscript from [metadata.json](./metadata.json) with the keys and values representing metadata keys and values respectively.
+- The `version` key in the metadata block is auto added at build time and is set as the date and time at which the build command was called. eg. `Tue, 28 Apr 2026 16:25:51 GMT`. This can be disabled by commenting out the relevant line in [builder/finalize.js](./builder/finalize.js).
 - The build command generates the built userscript to a folder named `dist`:
     - ```
       npm run build
